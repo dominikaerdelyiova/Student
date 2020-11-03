@@ -1,5 +1,7 @@
 package sk.kosickaakademia.dominika.erdelyiova;
 
+import java.util.Date;
+
 public class Student {
     private String firstName;
     private String lastName;
@@ -13,6 +15,7 @@ public class Student {
         this.lastName=lastName;
         this.grades=grades;
         this.className=className;
+    }
 
         public void setSalary(int salary) {
             this.salary = salary;
@@ -46,5 +49,3 @@ public class Student {
             return grades;
         }
     }
-
-}
